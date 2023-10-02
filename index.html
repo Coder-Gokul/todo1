@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <img class="img" src="assets/images/img.png" alt="">
+
+        <main class="todoBox">
+            <div class="todoBoxTop">
+                <p>TODO List</p>
+            </div>
+            <form class="form" id="form">
+                <section class="todoEntry">
+                    <div class="todoEntry-Top">
+                        <div class="input-div">
+                            <input type="text" placeholder="What would you like to add?" class="input" id="input"
+                                autocomplete="off">
+                        </div>
+                        <div class="btn">
+                            <input type="submit" value="Add"></input>
+                        </div>
+                    </div>
+                    <p class="todoEntry-Bottom">
+                        <!-- Your Pending Task(s) : -->
+                    </p>
+                </section>
+
+                <section class="todoList">
+                    <article class="todo-heading">
+                        <h2>Tasks</h2>
+                        <h2>Remove</h2>
+                    </article>
+                    <main class="todo-main">
+                        <ul class="todo-ul" id="todo-ul">
+
+                            <!-- <div class="todo-group">
+                                <li class="todo-li checked">Task 1 can be right here </li>
+                                <span class="todo-delete"></span>
+                            </div>
+
+                            <div class="todo-group">
+                                <li class="todo-li">Task 1 can be right here </li>
+                                <span class="todo-delete"></span>
+                            </div> -->
+
+                        </ul>
+                    </main>
+                </section>
+            </form>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
